@@ -60,9 +60,9 @@ public class Form extends AppCompatActivity {
                 if ( name.isEmpty() || edad.isEmpty()) {
                     Toast.makeText(Form.this, "You must complete all fields", Toast.LENGTH_SHORT).show();
                 } else {
-                    // editor.putString("name", name);
-                    // editor.putString("edad", edad);
-                    // editor.putString("hobby", hobby);
+                    editor.putString("name", name);
+                    editor.putString("edad", edad);
+                    editor.putString("hobby", hobby);
 
                     Intent i;
                     switch (hobby) {
